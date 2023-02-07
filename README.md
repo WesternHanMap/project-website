@@ -1,2 +1,1 @@
-# intro
-Storymap Page
+# Homepage of Western Han Web Map
