@@ -1,0 +1,215 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Space+Grotesk:700|Poppins:700,900,600,400|Vollkorn:900|Vollkorn+SC:700");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/635566bf808f2e0bc7bcd8d2.635566c04dd3a6b4b62a5cc3.cfBLRm2.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.social-media {
+  height: 23px;
+  margin-left: 15.0px;
+  width: 153px;
+}
+
+.contact {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  margin-bottom: 3.0px;
+  margin-left: 80px;
+  min-height: 169px;
+  width: 205px;
+}
+
+.contact-us {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+}
+
+.icon-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin-top: 4px;
+  min-height: 59px;
+  width: 18px;
+}
+
+.icon-mail {
+  height: 15px;
+  width: 18px;
+}
+
+.icon-location_pin {
+  height: 21px;
+  width: 16px;
+}
+
+.mappingwhmcgillca {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 162px;
+}
+
+.text {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: 162px;
+}
+
+.terms-team {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  margin-left: 94px;
+  margin-top: 13px;
+  min-height: 61px;
+  width: 103px;
+}
+
+.link {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+}
+
+.institutes {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  gap: 28px;
+  height: 121px;
+  margin-bottom: 6px;
+  margin-left: 96px;
+  min-width: 465px;
+}
+
+.presented-by {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+}
+
+.mcgill-logo-1 {
+  align-self: flex-end;
+  height: 53px;
+  object-fit: cover;
+  width: 195px;
+}
+
+.in-collaboration-with {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 20px;
+}
+
+.mpiwg-logo-1 {
+  align-self: flex-end;
+  height: 101px;
+  object-fit: cover;
+  width: 174px;
+}
+
+.menu::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  margin-bottom: 1.0px;
+  min-width: 877px;
+}
+
+.navbar-link-about {
+  min-width: 56px;
+}
+
+.navbar-link-members {
+  margin-left: 25px;
+  min-width: 78px;
+}
+
+.navbar-link-publications {
+  margin-left: 25px;
+  min-width: 117px;
+}
+
+.navbar-link-presentations {
+  margin-left: 25px;
+  min-width: 130px;
+}
+
+.navbar-link-storymap {
+  margin-left: 25px;
+  min-width: 90px;
+}
+
+.navbar-link-interactive-map {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 25px;
+  min-height: 24px;
+  min-width: 144px;
+  text-align: center;
+}
+
+.navbar-link-datasets {
+  margin-left: 25px;
+  min-width: 83px;
+}
+
+.navbar-link {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  text-align: center;
+}

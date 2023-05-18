@@ -1,0 +1,419 @@
+/* screen - desktop-terms */
+
+.desktop-terms {
+  align-items: flex-start;
+  background-color: var(--spring-wood);
+  border: 1px none;
+  display: flex;
+  height: 1024px;
+  width: 1440px;
+}
+
+.desktop-terms .footer {
+  align-items: flex-start;
+  background-color: var(--fuscous-gray);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 304px;
+  justify-content: flex-start;
+  margin-top: 720px;
+  mix-blend-mode: normal;
+  padding: 53px 32px;
+  width: 1440px;
+  z-index: 1;
+}
+
+.desktop-terms .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  min-height: 155px;
+  width: 326px;
+}
+
+.desktop-terms .mapping-western-han-2 {
+  width: 326px;
+}
+
+.desktop-terms .group-container {
+  height: 97px;
+  position: relative;
+  width: 326px;
+}
+
+.desktop-terms .clip-path-group {
+  height: 94px;
+  left: 5px;
+  position: absolute;
+  top: 2px;
+  width: 96px;
+}
+
+.desktop-terms .group {
+  height: 19px;
+  left: 139px;
+  position: absolute;
+  top: 22px;
+  width: 20px;
+}
+
+.desktop-terms .group-1 {
+  height: 19px;
+  left: 162px;
+  position: absolute;
+  top: 22px;
+  width: 18px;
+}
+
+.desktop-terms .group-2 {
+  height: 19px;
+  left: 183px;
+  position: absolute;
+  top: 22px;
+  width: 16px;
+}
+
+.desktop-terms .group-3 {
+  height: 19px;
+  left: 202px;
+  position: absolute;
+  top: 22px;
+  width: 16px;
+}
+
+.desktop-terms .group-4 {
+  height: 19px;
+  left: 221px;
+  position: absolute;
+  top: 22px;
+  width: 4px;
+}
+
+.desktop-terms .group-5 {
+  height: 19px;
+  left: 228px;
+  position: absolute;
+  top: 22px;
+  width: 15px;
+}
+
+.desktop-terms .group-6 {
+  height: 19px;
+  left: 246px;
+  position: absolute;
+  top: 22px;
+  width: 18px;
+}
+
+.desktop-terms .group-7 {
+  height: 19px;
+  left: 100px;
+  position: absolute;
+  top: 50px;
+  width: 27px;
+}
+
+.desktop-terms .group-8 {
+  height: 19px;
+  left: 130px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-terms .group-9 {
+  height: 19px;
+  left: 148px;
+  position: absolute;
+  top: 50px;
+  width: 14px;
+}
+
+.desktop-terms .group-10 {
+  height: 19px;
+  left: 165px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-terms .group-11 {
+  height: 19px;
+  left: 183px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-terms .group-12 {
+  height: 19px;
+  left: 201px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-terms .group-13 {
+  height: 19px;
+  left: 219px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-terms .group-14 {
+  height: 19px;
+  left: 249px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-terms .group-15 {
+  height: 19px;
+  left: 267px;
+  position: absolute;
+  top: 50px;
+  width: 18px;
+}
+
+.desktop-terms .group-16 {
+  height: 19px;
+  left: 288px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-terms .mask-group {
+  height: 97px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 326px;
+}
+
+.desktop-terms .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 4px;
+  margin-left: 1px;
+  min-width: 198px;
+}
+
+.desktop-terms .overlap-group1 {
+  height: 128px;
+  position: relative;
+  width: 176px;
+}
+
+.desktop-terms .flex-col-1 {
+  gap: 24px;
+  min-height: 97px;
+  width: 214px;
+}
+
+.desktop-terms .flex-col-2 {
+  min-height: 121px;
+  width: 219px;
+}
+
+.desktop-terms .menu {
+  align-items: center;
+  background-color: var(--cararra);
+  box-shadow: 0px 4px 10px #ded4c4;
+  display: flex;
+  gap: 203px;
+  height: 93px;
+  left: 0;
+  overflow-y: scroll;
+  padding: 1px 33.2px;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+  z-index: 2;
+}
+
+.desktop-terms .mapping-western-han-1 {
+  align-self: flex-end;
+  margin-left: 30px;
+  width: 264px;
+}
+
+.desktop-terms .group-container-1 {
+  height: 79px;
+  position: relative;
+  width: 264px;
+}
+
+.desktop-terms .clip-path-group-1 {
+  height: 77px;
+  left: 4px;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.desktop-terms .group-17 {
+  height: 16px;
+  left: 113px;
+  position: absolute;
+  top: 18px;
+  width: 16px;
+}
+
+.desktop-terms .group-18 {
+  height: 16px;
+  left: 131px;
+  position: absolute;
+  top: 18px;
+  width: 15px;
+}
+
+.desktop-terms .group-19 {
+  height: 16px;
+  left: 148px;
+  position: absolute;
+  top: 18px;
+  width: 13px;
+}
+
+.desktop-terms .group-20 {
+  height: 16px;
+  left: 164px;
+  position: absolute;
+  top: 18px;
+  width: 13px;
+}
+
+.desktop-terms .group-21 {
+  height: 16px;
+  left: 179px;
+  position: absolute;
+  top: 18px;
+  width: 3px;
+}
+
+.desktop-terms .group-22 {
+  height: 16px;
+  left: 185px;
+  position: absolute;
+  top: 18px;
+  width: 12px;
+}
+
+.desktop-terms .group-23 {
+  height: 16px;
+  left: 199px;
+  position: absolute;
+  top: 18px;
+  width: 14px;
+}
+
+.desktop-terms .group-24 {
+  height: 16px;
+  left: 81px;
+  position: absolute;
+  top: 41px;
+  width: 22px;
+}
+
+.desktop-terms .group-25 {
+  height: 16px;
+  left: 105px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-terms .group-26 {
+  height: 16px;
+  left: 120px;
+  position: absolute;
+  top: 41px;
+  width: 11px;
+}
+
+.desktop-terms .group-27 {
+  height: 16px;
+  left: 134px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-terms .group-28 {
+  height: 16px;
+  left: 149px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-terms .group-29 {
+  height: 16px;
+  left: 163px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-terms .group-30 {
+  height: 16px;
+  left: 178px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-terms .group-31 {
+  height: 16px;
+  left: 202px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-terms .group-32 {
+  height: 16px;
+  left: 216px;
+  position: absolute;
+  top: 41px;
+  width: 15px;
+}
+
+.desktop-terms .group-33 {
+  height: 16px;
+  left: 234px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-terms .mask-group-1 {
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 264px;
+}
+
+.desktop-terms .group-8-1 {
+  height: 8px;
+  margin-bottom: 0.09px;
+  margin-left: 4px;
+  width: 11px;
+}
+
+.desktop-terms .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop-terms .mapping-western-han {
+  align-items: flex-start;
+  display: flex;
+}
