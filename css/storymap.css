@@ -1,0 +1,517 @@
+/* screen - storymap */
+
+.storymap {
+  align-items: center;
+  background-color: var(--spring-wood);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  width: 1440px;
+}
+
+.storymap .menu {
+  align-items: center;
+  background-color: var(--cararra);
+  box-shadow: 0px 4px 10px #ded4c4;
+  display: flex;
+  gap: 203px;
+  height: 93px;
+  left: 0;
+  overflow-y: scroll;
+  padding: 1px 35.2px;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+  z-index: 3;
+}
+
+.storymap .logo1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-left: 28px;
+  width: 264px;
+}
+
+.storymap .group-container {
+  height: 79px;
+  position: relative;
+  width: 264px;
+}
+
+.storymap .clip-path-group {
+  height: 77px;
+  left: 4px;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.storymap .group {
+  height: 16px;
+  left: 113px;
+  position: absolute;
+  top: 18px;
+  width: 16px;
+}
+
+.storymap .group-1 {
+  height: 16px;
+  left: 131px;
+  position: absolute;
+  top: 18px;
+  width: 15px;
+}
+
+.storymap .group-2 {
+  height: 16px;
+  left: 148px;
+  position: absolute;
+  top: 18px;
+  width: 13px;
+}
+
+.storymap .group-3 {
+  height: 16px;
+  left: 164px;
+  position: absolute;
+  top: 18px;
+  width: 13px;
+}
+
+.storymap .group-4 {
+  height: 16px;
+  left: 179px;
+  position: absolute;
+  top: 18px;
+  width: 3px;
+}
+
+.storymap .group-5 {
+  height: 16px;
+  left: 185px;
+  position: absolute;
+  top: 18px;
+  width: 12px;
+}
+
+.storymap .group-6 {
+  height: 16px;
+  left: 199px;
+  position: absolute;
+  top: 18px;
+  width: 14px;
+}
+
+.storymap .group-7 {
+  height: 16px;
+  left: 81px;
+  position: absolute;
+  top: 41px;
+  width: 22px;
+}
+
+.storymap .group-8 {
+  height: 16px;
+  left: 105px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.storymap .group-9 {
+  height: 16px;
+  left: 120px;
+  position: absolute;
+  top: 41px;
+  width: 11px;
+}
+
+.storymap .group-10 {
+  height: 16px;
+  left: 134px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.storymap .group-11 {
+  height: 16px;
+  left: 149px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.storymap .group-12 {
+  height: 16px;
+  left: 163px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.storymap .group-13 {
+  height: 16px;
+  left: 178px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.storymap .group-14 {
+  height: 16px;
+  left: 202px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.storymap .group-15 {
+  height: 16px;
+  left: 216px;
+  position: absolute;
+  top: 41px;
+  width: 15px;
+}
+
+.storymap .group-16 {
+  height: 16px;
+  left: 234px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.storymap .mask-group-2 {
+  cursor: pointer;
+}
+
+.storymap .navbar {
+  align-items: flex-start;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 1.0px;
+  min-width: 875px;
+}
+
+.storymap .navbar-link-about {
+  min-width: 56px;
+}
+
+.storymap .navbar-link-members {
+  min-width: 78px;
+}
+
+.storymap .navbar-link-publications {
+  min-width: 117px;
+}
+
+.storymap .navbar-link-presentations {
+  min-width: 130px;
+}
+
+.storymap .navbar-link-storymap {
+  min-width: 90px;
+}
+
+.storymap .navbar-link-interactive-map {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  min-width: 144px;
+  text-align: center;
+}
+
+.storymap .dropdown {
+  height: 8px;
+  margin-bottom: 0.1px;
+  width: 11px;
+}
+
+.storymap .line-1 {
+  height: 1px;
+  left: 1012px;
+  object-fit: cover;
+  position: fixed;
+  top: 57px;
+  width: 90px;
+  z-index: 4;
+}
+
+.storymap .overlap-group3 {
+  align-items: center;
+  background-image: url(../img/image-8.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 618px;
+  margin-top: 97px;
+  min-width: 1440px;
+  padding: 0 162px;
+  z-index: 2;
+}
+
+.storymap .overlap-group2 {
+  align-items: flex-end;
+  background-image: url(../img/img-4951-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 503px;
+  justify-content: flex-end;
+  margin-left: 1px;
+  min-width: 1044px;
+  padding: 43px 57px;
+}
+
+.storymap .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+  min-height: 323px;
+  width: 397px;
+}
+
+.storymap .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 13px;
+  height: 45px;
+  margin-right: 21.0px;
+  min-width: 346px;
+}
+
+.storymap .footer {
+  align-items: flex-start;
+  background-color: var(--fuscous-gray);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 304px;
+  justify-content: flex-start;
+  margin-top: 5px;
+  mix-blend-mode: normal;
+  padding: 53px 32px;
+  width: 1440px;
+  z-index: 1;
+}
+
+.storymap .group-container-1 {
+  height: 97px;
+  position: relative;
+  width: 326px;
+}
+
+.storymap .clip-path-group-1 {
+  height: 94px;
+  left: 5px;
+  position: absolute;
+  top: 2px;
+  width: 96px;
+}
+
+.storymap .group-17 {
+  height: 19px;
+  left: 139px;
+  position: absolute;
+  top: 22px;
+  width: 20px;
+}
+
+.storymap .group-18 {
+  height: 19px;
+  left: 162px;
+  position: absolute;
+  top: 22px;
+  width: 18px;
+}
+
+.storymap .group-19 {
+  height: 19px;
+  left: 183px;
+  position: absolute;
+  top: 22px;
+  width: 16px;
+}
+
+.storymap .group-20 {
+  height: 19px;
+  left: 202px;
+  position: absolute;
+  top: 22px;
+  width: 16px;
+}
+
+.storymap .group-21 {
+  height: 19px;
+  left: 221px;
+  position: absolute;
+  top: 22px;
+  width: 4px;
+}
+
+.storymap .group-22 {
+  height: 19px;
+  left: 228px;
+  position: absolute;
+  top: 22px;
+  width: 15px;
+}
+
+.storymap .group-23 {
+  height: 19px;
+  left: 246px;
+  position: absolute;
+  top: 22px;
+  width: 18px;
+}
+
+.storymap .group-24 {
+  height: 19px;
+  left: 100px;
+  position: absolute;
+  top: 50px;
+  width: 27px;
+}
+
+.storymap .group-25 {
+  height: 19px;
+  left: 130px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.storymap .group-26 {
+  height: 19px;
+  left: 148px;
+  position: absolute;
+  top: 50px;
+  width: 14px;
+}
+
+.storymap .group-27 {
+  height: 19px;
+  left: 165px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.storymap .group-28 {
+  height: 19px;
+  left: 183px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.storymap .group-29 {
+  height: 19px;
+  left: 201px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.storymap .group-30 {
+  height: 19px;
+  left: 219px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.storymap .group-31 {
+  height: 19px;
+  left: 249px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.storymap .group-32 {
+  height: 19px;
+  left: 267px;
+  position: absolute;
+  top: 50px;
+  width: 18px;
+}
+
+.storymap .group-33 {
+  height: 19px;
+  left: 288px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.storymap .mask-group {
+  height: 97px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 326px;
+}
+
+.storymap .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 4px;
+  margin-left: 1px;
+  min-width: 198px;
+}
+
+.storymap .overlap-group1 {
+  height: 128px;
+  position: relative;
+  width: 176px;
+}
+
+.storymap .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 162px;
+}
+
+.storymap .flex-col-1 {
+  gap: 24px;
+  min-height: 97px;
+  width: 214px;
+}
+
+.storymap .flex-col-2 {
+  min-height: 121px;
+  width: 219px;
+}
+
+.storymap .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.storymap .mask-group-3 {
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 264px;
+}
+
+.storymap .navbar-link {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  text-align: center;
+}

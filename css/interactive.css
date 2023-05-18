@@ -1,0 +1,464 @@
+/* screen - interactive */
+
+.interactive {
+  align-items: flex-start;
+  background-color: var(--spring-wood);
+  border: 1px none;
+  display: flex;
+  height: 1024px;
+  width: 1440px;
+}
+
+.interactive .footer {
+  align-items: flex-start;
+  background-color: var(--fuscous-gray);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 304px;
+  justify-content: flex-start;
+  margin-top: 720px;
+  mix-blend-mode: normal;
+  padding: 53px 32px;
+  width: 1440px;
+  z-index: 1;
+}
+
+.interactive .group-container {
+  height: 97px;
+  position: relative;
+  width: 326px;
+}
+
+.interactive .clip-path-group {
+  height: 94px;
+  left: 5px;
+  position: absolute;
+  top: 2px;
+  width: 96px;
+}
+
+.interactive .group {
+  height: 19px;
+  left: 139px;
+  position: absolute;
+  top: 22px;
+  width: 20px;
+}
+
+.interactive .group-1 {
+  height: 19px;
+  left: 162px;
+  position: absolute;
+  top: 22px;
+  width: 18px;
+}
+
+.interactive .group-2 {
+  height: 19px;
+  left: 183px;
+  position: absolute;
+  top: 22px;
+  width: 16px;
+}
+
+.interactive .group-3 {
+  height: 19px;
+  left: 202px;
+  position: absolute;
+  top: 22px;
+  width: 16px;
+}
+
+.interactive .group-4 {
+  height: 19px;
+  left: 221px;
+  position: absolute;
+  top: 22px;
+  width: 4px;
+}
+
+.interactive .group-5 {
+  height: 19px;
+  left: 228px;
+  position: absolute;
+  top: 22px;
+  width: 15px;
+}
+
+.interactive .group-6 {
+  height: 19px;
+  left: 246px;
+  position: absolute;
+  top: 22px;
+  width: 18px;
+}
+
+.interactive .group-7 {
+  height: 19px;
+  left: 100px;
+  position: absolute;
+  top: 50px;
+  width: 27px;
+}
+
+.interactive .group-8 {
+  height: 19px;
+  left: 130px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.interactive .group-9 {
+  height: 19px;
+  left: 148px;
+  position: absolute;
+  top: 50px;
+  width: 14px;
+}
+
+.interactive .group-10 {
+  height: 19px;
+  left: 165px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.interactive .group-11 {
+  height: 19px;
+  left: 183px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.interactive .group-12 {
+  height: 19px;
+  left: 201px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.interactive .group-13 {
+  height: 19px;
+  left: 219px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.interactive .group-14 {
+  height: 19px;
+  left: 249px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.interactive .group-15 {
+  height: 19px;
+  left: 267px;
+  position: absolute;
+  top: 50px;
+  width: 18px;
+}
+
+.interactive .group-16 {
+  height: 19px;
+  left: 288px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.interactive .mask-group {
+  height: 97px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 326px;
+}
+
+.interactive .flex-row {
+  gap: 4px;
+  margin-left: 1px;
+  min-width: 198px;
+}
+
+.interactive .overlap-group1 {
+  height: 128px;
+  position: relative;
+  width: 176px;
+}
+
+.interactive .flex-container {
+  flex-direction: column;
+  gap: 3px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 162px;
+}
+
+.interactive .flex-col {
+  flex-direction: column;
+  gap: 24px;
+  min-height: 97px;
+  width: 214px;
+}
+
+.interactive .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 121px;
+  width: 219px;
+}
+
+.interactive .menu {
+  align-items: center;
+  background-color: var(--cararra);
+  box-shadow: 0px 4px 10px #ded4c4;
+  display: flex;
+  gap: 203px;
+  height: 93px;
+  left: 0;
+  overflow-y: scroll;
+  padding: 1px 35.2px;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+  z-index: 2;
+}
+
+.interactive .logo1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  cursor: pointer;
+  display: flex;
+  margin-left: 28px;
+  width: 264px;
+}
+
+.interactive .group-container-1 {
+  height: 79px;
+  position: relative;
+  width: 264px;
+}
+
+.interactive .clip-path-group-1 {
+  height: 77px;
+  left: 4px;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.interactive .group-17 {
+  height: 16px;
+  left: 113px;
+  position: absolute;
+  top: 18px;
+  width: 16px;
+}
+
+.interactive .group-18 {
+  height: 16px;
+  left: 131px;
+  position: absolute;
+  top: 18px;
+  width: 15px;
+}
+
+.interactive .group-19 {
+  height: 16px;
+  left: 148px;
+  position: absolute;
+  top: 18px;
+  width: 13px;
+}
+
+.interactive .group-20 {
+  height: 16px;
+  left: 164px;
+  position: absolute;
+  top: 18px;
+  width: 13px;
+}
+
+.interactive .group-21 {
+  height: 16px;
+  left: 179px;
+  position: absolute;
+  top: 18px;
+  width: 3px;
+}
+
+.interactive .group-22 {
+  height: 16px;
+  left: 185px;
+  position: absolute;
+  top: 18px;
+  width: 12px;
+}
+
+.interactive .group-23 {
+  height: 16px;
+  left: 199px;
+  position: absolute;
+  top: 18px;
+  width: 14px;
+}
+
+.interactive .group-24 {
+  height: 16px;
+  left: 81px;
+  position: absolute;
+  top: 41px;
+  width: 22px;
+}
+
+.interactive .group-25 {
+  height: 16px;
+  left: 105px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.interactive .group-26 {
+  height: 16px;
+  left: 120px;
+  position: absolute;
+  top: 41px;
+  width: 11px;
+}
+
+.interactive .group-27 {
+  height: 16px;
+  left: 134px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.interactive .group-28 {
+  height: 16px;
+  left: 149px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.interactive .group-29 {
+  height: 16px;
+  left: 163px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.interactive .group-30 {
+  height: 16px;
+  left: 178px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.interactive .group-31 {
+  height: 16px;
+  left: 202px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.interactive .group-32 {
+  height: 16px;
+  left: 216px;
+  position: absolute;
+  top: 41px;
+  width: 15px;
+}
+
+.interactive .group-33 {
+  height: 16px;
+  left: 234px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.interactive .mask-group-1 {
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 264px;
+}
+
+.interactive .navbar {
+  align-items: flex-start;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 1.0px;
+  min-width: 875px;
+}
+
+.interactive .navbar-link-about {
+  min-width: 56px;
+}
+
+.interactive .navbar-link-members {
+  min-width: 78px;
+}
+
+.interactive .navbar-link-publications {
+  min-width: 117px;
+}
+
+.interactive .navbar-link-presentations {
+  min-width: 130px;
+}
+
+.interactive .navbar-link-storymap {
+  min-width: 90px;
+}
+
+.interactive .navbar-link-interactive-map {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  min-width: 144px;
+  text-align: center;
+}
+
+.interactive .dropdown {
+  height: 8px;
+  margin-bottom: 0.1px;
+  width: 11px;
+}
+
+.interactive .line-1 {
+  height: 1px;
+  left: 1127px;
+  object-fit: cover;
+  position: fixed;
+  top: 57px;
+  width: 142px;
+  z-index: 3;
+}
+
+.interactive .navbar-link {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  text-align: center;
+}

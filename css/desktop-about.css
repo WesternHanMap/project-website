@@ -203,19 +203,38 @@
   min-width: 198px;
 }
 
+.desktop-about .flex-col-1 {
+  gap: 23px;
+  margin-top: 4px;
+  min-height: 59px;
+  width: 18px;
+}
+
 .desktop-about .overlap-group1 {
   height: 128px;
   position: relative;
   width: 176px;
 }
 
-.desktop-about .flex-col-1 {
+.desktop-about .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 162px;
+}
+
+.desktop-about .flex-col-2 {
   gap: 24px;
   min-height: 97px;
   width: 214px;
 }
 
-.desktop-about .flex-col-2 {
+.desktop-about .flex-col-3 {
   min-height: 121px;
   width: 219px;
 }
@@ -400,6 +419,48 @@
   width: 264px;
 }
 
+.desktop-about .navbar {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  margin-bottom: 1.0px;
+  min-width: 877px;
+}
+
+.desktop-about .navbar-link-about {
+  min-width: 56px;
+}
+
+.desktop-about .navbar-link-members {
+  margin-left: 25px;
+  min-width: 78px;
+}
+
+.desktop-about .navbar-link-publications {
+  margin-left: 25px;
+  min-width: 117px;
+}
+
+.desktop-about .navbar-link-presentations {
+  margin-left: 25px;
+  min-width: 130px;
+}
+
+.desktop-about .navbar-link-storymap {
+  margin-left: 25px;
+  min-width: 90px;
+}
+
+.desktop-about .navbar-link-interactive-map {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 25px;
+  min-height: 24px;
+  min-width: 144px;
+  text-align: center;
+}
+
 .desktop-about .group-8-1 {
   height: 8px;
   margin-bottom: 0.1px;
@@ -417,7 +478,7 @@
   z-index: 3;
 }
 
-.desktop-about .flex-col-3 {
+.desktop-about .flex-col-4 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -426,4 +487,12 @@
 .desktop-about .mapping-western-han {
   align-items: flex-start;
   display: flex;
+}
+
+.desktop-about .navbar-link {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  text-align: center;
 }

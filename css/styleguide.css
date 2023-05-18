@@ -2,18 +2,21 @@
   --black: #000000;
   --cararra: #f1eee3;
   --fuscous-gray: #595245;
+  --fuscous-gray-2: #5952454c;
   --hairy-heath: #683011;
   --mountain-mist: #949494;
+  --shingle-fawn: #63502c;
   --spring-wood: #f9f6eb;
+  --stark-white: #e1d6c3;
   --white: #ffffff;
  
-  --font-size-l: 17px;
-  --font-size-m: 16px;
-  --font-size-xl: 18px;
-  --font-size-xxl: 19px;
-  --font-size-xxxl: 20px;
-  --font-size-xxxxl: 25px;
-  --font-size-xxxxxl: 28px;
+  --font-size-l: 25px;
+  --font-size-m: 20px;
+  --font-size-s: 19px;
+  --font-size-xl: 28px;
+  --font-size-xs: 18px;
+  --font-size-xxs: 17px;
+  --font-size-xxxs: 16px;
  
   --font-family-poppins: "Poppins", Helvetica;
   --font-family-space_grotesk: "Space Grotesk", Helvetica;
@@ -23,7 +26,7 @@
 .spacegrotesk-bold-mountain-mist-16px {
   color: var(--mountain-mist);
   font-family: var(--font-family-space_grotesk);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-xxxs);
   font-style: normal;
   font-weight: 700;
 }
@@ -31,7 +34,7 @@
 .poppins-bold-fuscous-gray-16px {
   color: var(--fuscous-gray);
   font-family: var(--font-family-poppins);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-xxxs);
   font-style: normal;
   font-weight: 700;
 }
@@ -39,7 +42,7 @@
 .spacegrotesk-bold-white-16px {
   color: var(--white);
   font-family: var(--font-family-space_grotesk);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-xxxs);
   font-style: normal;
   font-weight: 700;
 }
@@ -47,31 +50,15 @@
 .poppins-bold-fuscous-gray-28px {
   color: var(--fuscous-gray);
   font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxxxxl);
+  font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 700;
 }
 
-.poppins-semi-bold-fuscous-gray-20px {
-  color: var(--fuscous-gray);
+.poppins-bold-fuscous-gray-16px-2 {
+  color: var(--fuscous-gray-2);
   font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxxl);
-  font-style: normal;
-  font-weight: 600;
-}
-
-.poppins-bold-hairy-heath-16px {
-  color: var(--hairy-heath);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 700;
-}
-
-.poppins-bold-fuscous-gray-25px {
-  color: var(--fuscous-gray);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxxxl);
+  font-size: var(--font-size-xxxs);
   font-style: normal;
   font-weight: 700;
 }
@@ -79,7 +66,71 @@
 .poppins-semi-bold-fuscous-gray-17px {
   color: var(--fuscous-gray);
   font-family: var(--font-family-poppins);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xxs);
   font-style: normal;
   font-weight: 600;
+}
+
+.poppins-normal-fuscous-gray-20px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-bold-hairy-heath-16px {
+  color: var(--hairy-heath);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-bold-fuscous-gray-25px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.vollkornsc-bold-hairy-heath-48px {
+  color: var(--hairy-heath);
+  font-family: var(--font-family-vollkorn_sc);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-semi-bold-fuscous-gray-20px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-bold-fuscous-gray-19px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.vollkornsc-bold-black-34px {
+  color: var(--black);
+  font-family: var(--font-family-vollkorn_sc);
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-normal-fuscous-gray-18px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
 }

@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Space+Grotesk:700|Poppins:700,900,600,400|Vollkorn:900|Vollkorn+SC:700");
+@import url("https://fonts.googleapis.com/css?family=Space+Grotesk:700|Vollkorn:900|Poppins:700,900,600,400|Vollkorn+SC:700");
 /* The following line is used to measure usage of this code in production. For more info see our usage billing page */
 @import url("https://px.animaapp.com/635566bf808f2e0bc7bcd8d2.635566c04dd3a6b4b62a5cc3.cfBLRm2.hcp.png");
 
@@ -23,14 +23,18 @@
   pointer-events: auto;
 }
 
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
 * {
   box-sizing: border-box;
 }
 
-.social-media {
-  height: 23px;
-  margin-left: 15.0px;
-  width: 153px;
+.logo2 {
+  align-items: flex-start;
+  display: flex;
+  width: 326px;
 }
 
 .contact {
@@ -77,18 +81,6 @@
   line-height: normal;
   position: absolute;
   top: 0;
-}
-
-.flex-container {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  height: 89px;
-  left: 0;
-  position: absolute;
-  top: 39px;
-  width: 162px;
 }
 
 .text {
@@ -154,62 +146,256 @@
   width: 174px;
 }
 
+.rectangle-7 {
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 237px;
+}
+
+.dataset {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: 24px;
+  font-weight: 700;
+  left: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 143px;
+}
+
+.intro {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  height: 386px;
+  left: 203px;
+  padding: 54px 0;
+  position: absolute;
+  top: 165px;
+  width: 977px;
+}
+
+.visualize-the-nobles {
+  color: var(--hairy-heath);
+  font-family: var(--font-family-poppins);
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 63px;
+  min-height: 43px;
+  text-align: center;
+  white-space: nowrap;
+  width: 934px;
+}
+
 .menu::-webkit-scrollbar {
   display: none;
   width: 0;
 }
 
-.navbar {
+.dataset-selection {
   align-items: center;
   display: flex;
+  gap: 4px;
   height: 24px;
-  margin-bottom: 1.0px;
-  min-width: 877px;
+  min-width: 100px;
 }
 
-.navbar-link-about {
-  min-width: 56px;
-}
-
-.navbar-link-members {
-  margin-left: 25px;
-  min-width: 78px;
-}
-
-.navbar-link-publications {
-  margin-left: 25px;
-  min-width: 117px;
-}
-
-.navbar-link-presentations {
-  margin-left: 25px;
-  min-width: 130px;
-}
-
-.navbar-link-storymap {
-  margin-left: 25px;
-  min-width: 90px;
-}
-
-.navbar-link-interactive-map {
-  cursor: pointer;
+.datasets {
   letter-spacing: 0;
   line-height: normal;
-  margin-left: 25px;
   min-height: 24px;
-  min-width: 144px;
+  min-width: 83px;
   text-align: center;
+}
+
+.flex {
+  align-items: flex-start;
+  display: flex;
+}
+
+.title-1 {
+  letter-spacing: 2.40px;
+  line-height: normal;
+  min-height: 67px;
+}
+
+.image-2 {
+  height: 305px;
+  width: 307px;
+}
+
+.griet-vankeerberghen {
+  letter-spacing: 1.40px;
+  line-height: normal;
+  min-height: 42px;
+}
+
+.raja-sengupta {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 1.35px;
+  line-height: normal;
+  min-height: 41px;
+}
+
+.current-team-members {
+  letter-spacing: 1.70px;
+  line-height: normal;
+  margin-left: 16px;
+  margin-top: -1px;
+  min-height: 47px;
+}
+
+.storymap-developer {
+  left: 0;
+  letter-spacing: 0.85px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 307px;
+}
+
+.name-1 {
+  letter-spacing: 1.25px;
+  margin-top: 18px;
+  min-height: 37px;
+  width: 307px;
+}
+
+.project-manager-dat {
+  left: 0;
+  letter-spacing: 0.85px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 314px;
+}
+
+.former-team-members {
+  letter-spacing: 1.70px;
+  line-height: normal;
+  margin-left: 206px;
+  margin-top: 78px;
+  min-height: 47px;
+}
+
+.special-thanks-to {
+  color: var(--black);
+  font-family: var(--font-family-vollkorn_sc);
+  font-size: 32px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 1.60px;
+  line-height: normal;
+  position: absolute;
+  top: 29px;
+  width: 364px;
+}
+
+.image-2-1 {
+  height: 159px;
+  left: 780px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 160px;
+}
+
+.frame-24 {
+  align-items: flex-end;
+  display: flex;
+  height: 542px;
+  padding: 19px 35px;
+  width: 1115px;
+}
+
+.representing-the-mob {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 212px;
+  text-align: center;
+  width: 397px;
+}
+
+.image-7 {
+  align-self: flex-end;
+  height: 44px;
+  object-fit: cover;
+  width: 44px;
+}
+
+.by-arc-gis-story-maps {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 42px;
+  min-width: 289px;
+  text-align: center;
+}
+
+.x640px-1 {
+  height: 291px;
+  margin-bottom: 22px;
+  margin-left: 102px;
+  object-fit: cover;
+  width: 291px;
+}
+
+.forward {
+  align-items: flex-start;
+  background-color: var(--hairy-heath);
+  border-radius: 30px/29.5px;
+  box-shadow: 0px 4px 8px #00000040;
+  display: flex;
+  height: 59px;
+  justify-content: flex-end;
+  margin-bottom: 1px;
+  margin-left: 41px;
+  min-width: 60px;
+  padding: 14.3px 11px;
+}
+
+.arrow-1 {
+  height: 29px;
+  width: 36px;
+}
+
+.social-media {
+  height: 23px;
+  margin-left: 15.0px;
+  width: 153px;
+}
+
+.mail {
+  height: 15px;
+  width: 18px;
+}
+
+.map-pin {
+  height: 21px;
+  width: 16px;
 }
 
 .navbar-link-datasets {
   margin-left: 25px;
   min-width: 83px;
-}
-
-.navbar-link {
-  cursor: pointer;
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 24px;
-  text-align: center;
 }

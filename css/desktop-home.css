@@ -215,20 +215,22 @@
   width: 18px;
 }
 
-.desktop-home .mail {
-  height: 15px;
-  width: 18px;
-}
-
-.desktop-home .map-pin {
-  height: 21px;
-  width: 16px;
-}
-
 .desktop-home .overlap-group1 {
   height: 128px;
   position: relative;
   width: 176px;
+}
+
+.desktop-home .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 162px;
 }
 
 .desktop-home .flex-col-2 {
@@ -285,7 +287,7 @@
 
 .desktop-home .overlap-group1-1 {
   align-items: flex-start;
-  background-color: #e1d6c3;
+  background-color: var(--stark-white);
   border-radius: 35px;
   box-shadow: inset 0px 1px 10px #00000033;
   display: flex;
@@ -306,31 +308,9 @@
   width: 237px;
 }
 
-.desktop-home .rectangle-7 {
-  height: 30px;
-  left: 0;
-  position: absolute;
-  top: 2px;
-  width: 237px;
-}
-
-.desktop-home .dataset {
-  color: var(--white);
-  font-family: var(--font-family-poppins);
-  font-size: 24px;
-  font-weight: 700;
-  left: 45px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 143px;
-}
-
 .desktop-home .filter-download-as-csvsql {
   align-self: center;
-  color: #63502c;
+  color: var(--shingle-fawn);
   font-family: var(--font-family-vollkorn);
   font-size: 32px;
   font-weight: 900;
@@ -343,7 +323,7 @@
 }
 
 .desktop-home .coming-soon {
-  color: #63502c;
+  color: var(--shingle-fawn);
   font-family: var(--font-family-poppins);
   font-size: 15px;
   font-weight: 600;
@@ -588,7 +568,7 @@
   top: 144px;
 }
 
-.desktop-home .overlap-group9 {
+.desktop-home .overlap-group7 {
   height: 217px;
   margin-bottom: 5.15px;
   position: relative;
@@ -873,39 +853,8 @@
   top: 244px;
 }
 
-.desktop-home .intro {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-  height: 386px;
-  left: 203px;
-  padding: 54px 0;
-  position: absolute;
-  top: 165px;
-  width: 977px;
-}
-
-.desktop-home .visualize-the-nobles {
-  color: var(--hairy-heath);
-  font-family: var(--font-family-poppins);
-  font-size: 36px;
-  font-weight: 900;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: 63px;
-  min-height: 43px;
-  text-align: center;
-  white-space: nowrap;
-  width: 934px;
-}
-
 .desktop-home .mapping-western-han {
   align-self: center;
-  color: var(--fuscous-gray);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxxl);
-  font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
   margin-left: 42.0px;
@@ -1093,6 +1042,48 @@
   width: 264px;
 }
 
+.desktop-home .navbar {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  margin-bottom: 1.0px;
+  min-width: 877px;
+}
+
+.desktop-home .navbar-link-about {
+  min-width: 56px;
+}
+
+.desktop-home .navbar-link-members {
+  margin-left: 25px;
+  min-width: 78px;
+}
+
+.desktop-home .navbar-link-publications {
+  margin-left: 25px;
+  min-width: 117px;
+}
+
+.desktop-home .navbar-link-presentations {
+  margin-left: 25px;
+  min-width: 130px;
+}
+
+.desktop-home .navbar-link-storymap {
+  margin-left: 25px;
+  min-width: 90px;
+}
+
+.desktop-home .navbar-link-interactive-map {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 25px;
+  min-height: 24px;
+  min-width: 144px;
+  text-align: center;
+}
+
 .desktop-home .group-8-1 {
   height: 8px;
   margin-bottom: 0.1px;
@@ -1132,4 +1123,12 @@
 .desktop-home .mapping-western-han-3 {
   align-items: flex-start;
   display: flex;
+}
+
+.desktop-home .navbar-link {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  text-align: center;
 }

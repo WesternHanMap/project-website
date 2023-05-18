@@ -1,0 +1,542 @@
+/* screen - desktop-storymap */
+
+.desktop-storymap {
+  align-items: center;
+  background-color: var(--spring-wood);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  width: 1440px;
+}
+
+.desktop-storymap .menu {
+  align-items: center;
+  background-color: var(--cararra);
+  box-shadow: 0px 4px 10px #ded4c4;
+  display: flex;
+  gap: 203px;
+  height: 93px;
+  left: 0;
+  overflow-y: scroll;
+  padding: 1px 33.2px;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+  z-index: 3;
+}
+
+.desktop-storymap .mapping-western-han-1 {
+  align-self: flex-end;
+  margin-left: 30px;
+  width: 264px;
+}
+
+.desktop-storymap .group-container {
+  height: 79px;
+  position: relative;
+  width: 264px;
+}
+
+.desktop-storymap .clip-path-group {
+  height: 77px;
+  left: 4px;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.desktop-storymap .group {
+  height: 16px;
+  left: 113px;
+  position: absolute;
+  top: 18px;
+  width: 16px;
+}
+
+.desktop-storymap .group-1 {
+  height: 16px;
+  left: 131px;
+  position: absolute;
+  top: 18px;
+  width: 15px;
+}
+
+.desktop-storymap .group-2 {
+  height: 16px;
+  left: 148px;
+  position: absolute;
+  top: 18px;
+  width: 13px;
+}
+
+.desktop-storymap .group-3 {
+  height: 16px;
+  left: 164px;
+  position: absolute;
+  top: 18px;
+  width: 13px;
+}
+
+.desktop-storymap .group-4 {
+  height: 16px;
+  left: 179px;
+  position: absolute;
+  top: 18px;
+  width: 3px;
+}
+
+.desktop-storymap .group-5 {
+  height: 16px;
+  left: 185px;
+  position: absolute;
+  top: 18px;
+  width: 12px;
+}
+
+.desktop-storymap .group-6 {
+  height: 16px;
+  left: 199px;
+  position: absolute;
+  top: 18px;
+  width: 14px;
+}
+
+.desktop-storymap .group-7 {
+  height: 16px;
+  left: 81px;
+  position: absolute;
+  top: 41px;
+  width: 22px;
+}
+
+.desktop-storymap .group-8 {
+  height: 16px;
+  left: 105px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-storymap .group-9 {
+  height: 16px;
+  left: 120px;
+  position: absolute;
+  top: 41px;
+  width: 11px;
+}
+
+.desktop-storymap .group-10 {
+  height: 16px;
+  left: 134px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-storymap .group-11 {
+  height: 16px;
+  left: 149px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-storymap .group-12 {
+  height: 16px;
+  left: 163px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-storymap .group-13 {
+  height: 16px;
+  left: 178px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-storymap .group-14 {
+  height: 16px;
+  left: 202px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-storymap .group-15 {
+  height: 16px;
+  left: 216px;
+  position: absolute;
+  top: 41px;
+  width: 15px;
+}
+
+.desktop-storymap .group-16 {
+  height: 16px;
+  left: 234px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.desktop-storymap .mask-group {
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 264px;
+}
+
+.desktop-storymap .navbar {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  margin-bottom: 1.0px;
+  min-width: 877px;
+}
+
+.desktop-storymap .navbar-link-about {
+  min-width: 56px;
+}
+
+.desktop-storymap .navbar-link-members {
+  margin-left: 25px;
+  min-width: 78px;
+}
+
+.desktop-storymap .navbar-link-publications {
+  margin-left: 25px;
+  min-width: 117px;
+}
+
+.desktop-storymap .navbar-link-presentations {
+  margin-left: 25px;
+  min-width: 130px;
+}
+
+.desktop-storymap .navbar-link-storymap {
+  margin-left: 25px;
+  min-width: 90px;
+}
+
+.desktop-storymap .navbar-link-interactive-map {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 25px;
+  min-height: 24px;
+  min-width: 144px;
+  text-align: center;
+}
+
+.desktop-storymap .group-8-1 {
+  height: 8px;
+  margin-bottom: 0.1px;
+  margin-left: 4px;
+  width: 11px;
+}
+
+.desktop-storymap .line-1 {
+  height: 1px;
+  left: 1012px;
+  object-fit: cover;
+  position: fixed;
+  top: 57px;
+  width: 90px;
+  z-index: 4;
+}
+
+.desktop-storymap .overlap-group3 {
+  align-items: center;
+  background-image: url(../img/image-8.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 618px;
+  margin-top: 97px;
+  min-width: 1440px;
+  padding: 0 162px;
+  z-index: 2;
+}
+
+.desktop-storymap .overlap-group2 {
+  align-items: flex-end;
+  background-image: url(../img/img-4951-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 503px;
+  justify-content: flex-end;
+  margin-left: 1px;
+  min-width: 1044px;
+  padding: 43px 57px;
+}
+
+.desktop-storymap .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+  min-height: 323px;
+  width: 397px;
+}
+
+.desktop-storymap .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 13px;
+  height: 45px;
+  margin-right: 21.0px;
+  min-width: 346px;
+}
+
+.desktop-storymap .footer {
+  align-items: flex-start;
+  background-color: var(--fuscous-gray);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 304px;
+  justify-content: flex-start;
+  margin-top: 5px;
+  mix-blend-mode: normal;
+  padding: 53px 32px;
+  width: 1440px;
+  z-index: 1;
+}
+
+.desktop-storymap .flex-col-1 {
+  align-items: center;
+  gap: 35px;
+  min-height: 155px;
+  width: 326px;
+}
+
+.desktop-storymap .mapping-western-han-2 {
+  width: 326px;
+}
+
+.desktop-storymap .group-container-1 {
+  height: 97px;
+  position: relative;
+  width: 326px;
+}
+
+.desktop-storymap .clip-path-group-1 {
+  height: 94px;
+  left: 5px;
+  position: absolute;
+  top: 2px;
+  width: 96px;
+}
+
+.desktop-storymap .group-17 {
+  height: 19px;
+  left: 139px;
+  position: absolute;
+  top: 22px;
+  width: 20px;
+}
+
+.desktop-storymap .group-18 {
+  height: 19px;
+  left: 162px;
+  position: absolute;
+  top: 22px;
+  width: 18px;
+}
+
+.desktop-storymap .group-19 {
+  height: 19px;
+  left: 183px;
+  position: absolute;
+  top: 22px;
+  width: 16px;
+}
+
+.desktop-storymap .group-20 {
+  height: 19px;
+  left: 202px;
+  position: absolute;
+  top: 22px;
+  width: 16px;
+}
+
+.desktop-storymap .group-21 {
+  height: 19px;
+  left: 221px;
+  position: absolute;
+  top: 22px;
+  width: 4px;
+}
+
+.desktop-storymap .group-22 {
+  height: 19px;
+  left: 228px;
+  position: absolute;
+  top: 22px;
+  width: 15px;
+}
+
+.desktop-storymap .group-23 {
+  height: 19px;
+  left: 246px;
+  position: absolute;
+  top: 22px;
+  width: 18px;
+}
+
+.desktop-storymap .group-24 {
+  height: 19px;
+  left: 100px;
+  position: absolute;
+  top: 50px;
+  width: 27px;
+}
+
+.desktop-storymap .group-25 {
+  height: 19px;
+  left: 130px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-storymap .group-26 {
+  height: 19px;
+  left: 148px;
+  position: absolute;
+  top: 50px;
+  width: 14px;
+}
+
+.desktop-storymap .group-27 {
+  height: 19px;
+  left: 165px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-storymap .group-28 {
+  height: 19px;
+  left: 183px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-storymap .group-29 {
+  height: 19px;
+  left: 201px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-storymap .group-30 {
+  height: 19px;
+  left: 219px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-storymap .group-31 {
+  height: 19px;
+  left: 249px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-storymap .group-32 {
+  height: 19px;
+  left: 267px;
+  position: absolute;
+  top: 50px;
+  width: 18px;
+}
+
+.desktop-storymap .group-33 {
+  height: 19px;
+  left: 288px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.desktop-storymap .mask-group-1 {
+  height: 97px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 326px;
+}
+
+.desktop-storymap .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 4px;
+  margin-left: 1px;
+  min-width: 198px;
+}
+
+.desktop-storymap .flex-col-2 {
+  align-items: flex-start;
+  gap: 23px;
+  margin-top: 4px;
+  min-height: 59px;
+  width: 18px;
+}
+
+.desktop-storymap .overlap-group1 {
+  height: 128px;
+  position: relative;
+  width: 176px;
+}
+
+.desktop-storymap .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 162px;
+}
+
+.desktop-storymap .flex-col-3 {
+  align-items: flex-start;
+  gap: 24px;
+  min-height: 97px;
+  width: 214px;
+}
+
+.desktop-storymap .flex-col-4 {
+  align-items: flex-start;
+  min-height: 121px;
+  width: 219px;
+}
+
+.desktop-storymap .flex-col-5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop-storymap .mapping-western-han {
+  align-items: flex-start;
+  display: flex;
+}
+
+.desktop-storymap .navbar-link {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  text-align: center;
+}

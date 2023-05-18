@@ -1,0 +1,1278 @@
+/* screen - members */
+
+.members {
+  align-items: flex-end;
+  background-color: var(--spring-wood);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 4786px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.members .menu {
+  align-items: center;
+  background-color: var(--cararra);
+  box-shadow: 0px 4px 10px #ded4c4;
+  display: flex;
+  gap: 203px;
+  height: 93px;
+  left: 0;
+  overflow-y: scroll;
+  padding: 1px 35.2px;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+  z-index: 7;
+}
+
+.members .logo1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  cursor: pointer;
+  display: flex;
+  margin-left: 28px;
+  width: 264px;
+}
+
+.members .group-container {
+  height: 79px;
+  position: relative;
+  width: 264px;
+}
+
+.members .clip-path-group {
+  height: 77px;
+  left: 4px;
+  position: absolute;
+  top: 1px;
+  width: 77px;
+}
+
+.members .group {
+  height: 16px;
+  left: 113px;
+  position: absolute;
+  top: 18px;
+  width: 16px;
+}
+
+.members .group-1 {
+  height: 16px;
+  left: 131px;
+  position: absolute;
+  top: 18px;
+  width: 15px;
+}
+
+.members .group-2 {
+  height: 16px;
+  left: 148px;
+  position: absolute;
+  top: 18px;
+  width: 13px;
+}
+
+.members .group-3 {
+  height: 16px;
+  left: 164px;
+  position: absolute;
+  top: 18px;
+  width: 13px;
+}
+
+.members .group-4 {
+  height: 16px;
+  left: 179px;
+  position: absolute;
+  top: 18px;
+  width: 3px;
+}
+
+.members .group-5 {
+  height: 16px;
+  left: 185px;
+  position: absolute;
+  top: 18px;
+  width: 12px;
+}
+
+.members .group-6 {
+  height: 16px;
+  left: 199px;
+  position: absolute;
+  top: 18px;
+  width: 14px;
+}
+
+.members .group-7 {
+  height: 16px;
+  left: 81px;
+  position: absolute;
+  top: 41px;
+  width: 22px;
+}
+
+.members .group-8 {
+  height: 16px;
+  left: 105px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.members .group-9 {
+  height: 16px;
+  left: 120px;
+  position: absolute;
+  top: 41px;
+  width: 11px;
+}
+
+.members .group-10 {
+  height: 16px;
+  left: 134px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.members .group-11 {
+  height: 16px;
+  left: 149px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.members .group-12 {
+  height: 16px;
+  left: 163px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.members .group-13 {
+  height: 16px;
+  left: 178px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.members .group-14 {
+  height: 16px;
+  left: 202px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.members .group-15 {
+  height: 16px;
+  left: 216px;
+  position: absolute;
+  top: 41px;
+  width: 15px;
+}
+
+.members .group-16 {
+  height: 16px;
+  left: 234px;
+  position: absolute;
+  top: 41px;
+  width: 12px;
+}
+
+.members .mask-group {
+  height: 79px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 264px;
+}
+
+.members .navbar {
+  align-items: flex-start;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 1.0px;
+  min-width: 875px;
+}
+
+.members .navbar-link-about {
+  min-width: 56px;
+}
+
+.members .navbar-link-members {
+  min-width: 78px;
+}
+
+.members .navbar-link-publications {
+  min-width: 117px;
+}
+
+.members .navbar-link-presentations {
+  min-width: 130px;
+}
+
+.members .navbar-link-storymap {
+  min-width: 90px;
+}
+
+.members .navbar-link-interactive-map {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  min-width: 144px;
+  text-align: center;
+}
+
+.members .dropdown {
+  height: 8px;
+  margin-bottom: 0.1px;
+  width: 11px;
+}
+
+.members .line-1 {
+  height: 1px;
+  left: 611px;
+  object-fit: cover;
+  position: fixed;
+  top: 57px;
+  width: 78px;
+  z-index: 8;
+}
+
+.members .title {
+  align-items: flex-start;
+  background-image: url(../img/title.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-right: -16px;
+  margin-top: 92px;
+  width: 1456px;
+  z-index: 6;
+}
+
+.members .overlap-group9 {
+  align-items: flex-start;
+  background-image: url(../img/overview-map2-2-1.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 211px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 71px 581px;
+}
+
+.members .prof {
+  align-items: flex-end;
+  display: flex;
+  height: 851px;
+  margin-top: 21px;
+  padding: 24px 124px;
+  width: 1437px;
+  z-index: 5;
+}
+
+.members .overlap-group8 {
+  height: 777px;
+  margin-left: 28px;
+  position: relative;
+  width: 1161px;
+}
+
+.members .griet {
+  align-items: flex-start;
+  display: flex;
+  gap: 62px;
+  height: 400px;
+  left: 0;
+  padding: 43px 51px;
+  position: absolute;
+  top: 377px;
+  width: 1161px;
+}
+
+.members .flex-col {
+  align-self: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 6.0px;
+  min-height: 290px;
+  width: 685px;
+}
+
+.members .professor-at-the-dep {
+  letter-spacing: 0.95px;
+  line-height: normal;
+  min-height: 58px;
+  width: 685px;
+}
+
+.members .overlap-group-3 {
+  height: 160px;
+  position: relative;
+  width: 685px;
+}
+
+.members .she-has-published-on {
+  left: 0;
+  letter-spacing: 0.90px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 685px;
+}
+
+.members .website {
+  left: 0;
+  top: 106px;
+}
+
+.members .aca-icon {
+  cursor: pointer;
+  height: 54px;
+  left: 46px;
+  object-fit: cover;
+  position: absolute;
+  top: 106px;
+  width: 51px;
+}
+
+.members .raja {
+  align-items: flex-start;
+  display: flex;
+  gap: 62px;
+  height: 400px;
+  left: 0;
+  padding: 43px 18px;
+  position: absolute;
+  top: 0;
+  width: 1161px;
+}
+
+.members .pic {
+  height: 305px;
+  margin-left: 33px;
+  width: 307px;
+}
+
+.members .flex-col-1 {
+  align-items: flex-start;
+  align-self: center;
+  gap: 15px;
+  margin-top: 4.0px;
+  min-height: 286px;
+  width: 723px;
+}
+
+.members .professor-at-the-dep-1 {
+  letter-spacing: 0.95px;
+  line-height: normal;
+  min-height: 58px;
+  width: 723px;
+}
+
+.members .overlap-group1 {
+  height: 157px;
+  position: relative;
+  width: 695px;
+}
+
+.members .his-research-interes {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.85px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 695px;
+}
+
+.members .icon-linkedin-1 {
+  left: 48px;
+  position: absolute;
+  top: 108px;
+}
+
+.members .website-1 {
+  left: 2px;
+  top: 103px;
+}
+
+.members .gs {
+  left: 101px;
+  position: absolute;
+  top: 103px;
+}
+
+.members .current-member {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  height: 1627px;
+  margin-right: -8px;
+  margin-top: 41px;
+  padding: 0 200px;
+  width: 1440px;
+  z-index: 4;
+}
+
+.members .flex-row {
+  gap: 59px;
+  height: 1482px;
+  min-width: 1039px;
+}
+
+.members .flex-col-2 {
+  align-items: flex-start;
+  min-height: 1482px;
+  width: 307px;
+}
+
+.members .x1simon {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 441px;
+  width: 307px;
+}
+
+.members .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/image-3@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  min-width: 275px;
+}
+
+.members .pic-1 {
+  align-items: flex-start;
+  background-image: url(../img/simon-arts-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  min-width: 275px;
+}
+
+.members .image-3-stroke {
+  height: 273px;
+  width: 275px;
+}
+
+.members .name-2 {
+  letter-spacing: 1.25px;
+  margin-top: 19px;
+  min-height: 37px;
+  width: 307px;
+}
+
+.members .web-developer-inter {
+  margin-top: 16px;
+  min-height: 74px;
+}
+
+.members .icon-linkedin {
+  cursor: pointer;
+  height: 43px;
+  margin-top: 17px;
+  object-fit: cover;
+  width: 53px;
+}
+
+.members .x4jenny {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+  min-height: 468px;
+  width: 307px;
+}
+
+.members .overlap-group-1 {
+  background-image: url(../img/image-3@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 273px;
+  position: relative;
+  width: 275px;
+}
+
+.members .jenny-park-1 {
+  height: 272px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 273px;
+}
+
+.members .image {
+  height: 273px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 275px;
+}
+
+.members .name {
+  letter-spacing: 1.40px;
+  margin-top: 19px;
+  min-height: 37px;
+  width: 307px;
+}
+
+.members .historical-map-digit {
+  letter-spacing: 0.85px;
+  line-height: normal;
+  margin-top: 16px;
+  min-height: 74px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .icon-linkedin-2 {
+  margin-top: 1px;
+}
+
+.members .x7ruoxuan {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+  min-height: 449px;
+  width: 307px;
+}
+
+.members .ruoxuan-wen-1 {
+  height: 273px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 273px;
+}
+
+.members .ruoxuan-wen {
+  letter-spacing: 1.40px;
+  line-height: normal;
+  margin-top: 18px;
+  min-height: 37px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .historical-data-ge {
+  letter-spacing: 0.85px;
+  line-height: normal;
+  margin-top: 16px;
+  min-height: 104px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .flex-col-3 {
+  align-items: flex-start;
+  gap: 67px;
+  margin-top: 1px;
+  min-height: 984px;
+  width: 307px;
+}
+
+.members .x2yanbing {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 449px;
+  width: 307px;
+}
+
+.members .yanbing-chen-1 {
+  height: 272px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 275px;
+}
+
+.members .x-chen {
+  letter-spacing: 1.25px;
+  line-height: normal;
+  margin-left: 8.0px;
+  margin-top: 18px;
+  min-height: 38px;
+  text-align: center;
+  width: 315px;
+}
+
+.members .overlap-group6 {
+  height: 116px;
+  margin-top: 15px;
+  position: relative;
+  width: 307px;
+}
+
+.members .icon-linkedin-3 {
+  left: 105px;
+  position: absolute;
+  top: 68px;
+}
+
+.members .gs-1 {
+  left: 158px;
+  position: absolute;
+  top: 63px;
+}
+
+.members .x5bryan {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 468px;
+  width: 307px;
+}
+
+.members .image-1 {
+  height: 273px;
+  object-fit: cover;
+  width: 275px;
+}
+
+.members .xxxxxxxx-ba-in-xxxx {
+  letter-spacing: 0.85px;
+  line-height: normal;
+  margin-top: 16px;
+  min-height: 74px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .flex-col-4 {
+  align-items: flex-start;
+  gap: 67px;
+  margin-top: 1px;
+  min-height: 965px;
+  width: 307px;
+}
+
+.members .x3xuanyun {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 449px;
+  width: 307px;
+}
+
+.members .overlap-group4 {
+  height: 129px;
+  margin-right: 1.0px;
+  margin-top: 41px;
+  position: relative;
+  width: 314px;
+}
+
+.members .icon-linkedin-4 {
+  left: 154px;
+  position: absolute;
+  top: 80px;
+}
+
+.members .website-2 {
+  left: 108px;
+  top: 75px;
+}
+
+.members .x6keyu {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 449px;
+  width: 307px;
+}
+
+.members .overlap-group-2 {
+  height: 273px;
+  position: relative;
+  width: 275px;
+}
+
+.members .keyu-wang-1 {
+  height: 270px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 271px;
+}
+
+.members .keyu-wang {
+  letter-spacing: 1.40px;
+  line-height: normal;
+  margin-top: 18px;
+  min-height: 37px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .overlap-group1-1 {
+  height: 143px;
+  margin-top: 16px;
+  position: relative;
+  width: 307px;
+}
+
+.members .web-developer-proje {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.members .icon-linkedin-5 {
+  left: 150px;
+  position: absolute;
+  top: 94px;
+}
+
+.members .website-3 {
+  left: 104px;
+  top: 89px;
+}
+
+.members .former-member {
+  align-items: flex-start;
+  background-color: #e9e6da;
+  display: flex;
+  flex-direction: column;
+  height: 1179px;
+  margin-right: 1px;
+  margin-top: 26px;
+  overflow: hidden;
+  width: 1440px;
+  z-index: 3;
+}
+
+.members .flex-row-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 59px;
+  height: 966px;
+  margin-right: 1.0px;
+  margin-top: 55px;
+  min-width: 1039px;
+}
+
+.members .flex-col-5 {
+  align-items: flex-start;
+  gap: 76px;
+  min-height: 966px;
+  width: 307px;
+}
+
+.members .x1azwar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 441px;
+  width: 307px;
+}
+
+.members .frame-25 {
+  align-items: flex-start;
+  background-image: url(../img/azwa-ali-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  min-width: 275px;
+}
+
+.members .azwar-ali {
+  letter-spacing: 1.25px;
+  line-height: normal;
+  margin-top: 19px;
+  min-height: 37px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .time-slider-develope {
+  letter-spacing: 0.85px;
+  line-height: normal;
+  margin-top: 16px;
+  min-height: 74px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .x4jing {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 449px;
+  width: 307px;
+}
+
+.members .jing-rao-1 {
+  height: 273px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 272px;
+}
+
+.members .jing-rao {
+  letter-spacing: 1.40px;
+  line-height: normal;
+  margin-top: 18px;
+  min-height: 37px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .abm-model-least-cos {
+  letter-spacing: 0.85px;
+  line-height: normal;
+  margin-top: 16px;
+  min-height: 104px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .flex-col-6 {
+  align-items: center;
+  align-self: flex-end;
+  min-height: 965px;
+  width: 307px;
+}
+
+.members .x2jiahua {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 449px;
+  width: 307px;
+}
+
+.members .jiahua-chen-1 {
+  height: 269px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 273px;
+}
+
+.members .timer-slider-develop {
+  letter-spacing: 0.85px;
+  line-height: normal;
+  margin-left: 8.0px;
+  margin-top: 15px;
+  min-height: 104px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .flex-row-2 {
+  align-items: center;
+  display: flex;
+  margin-left: 9.0px;
+  margin-top: 1px;
+  min-width: 98px;
+}
+
+.members .x5duo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+  min-height: 449px;
+  width: 307px;
+}
+
+.members .duo-zhang {
+  letter-spacing: 1.40px;
+  line-height: normal;
+  margin-top: 18px;
+  min-height: 37px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .rl-based-abm-model-ph-d-in-geography {
+  letter-spacing: 0.85px;
+  line-height: normal;
+  margin-top: 16px;
+  min-height: 104px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .x3clara {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  min-height: 449px;
+  width: 307px;
+}
+
+.members .clara-fere-1 {
+  height: 270px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 270px;
+}
+
+.members .overlap-group1-2 {
+  height: 105px;
+  margin-left: 8.0px;
+  margin-top: 16px;
+  position: relative;
+  width: 307px;
+}
+
+.members .western-han-river-di {
+  left: 0;
+  letter-spacing: 0.85px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 307px;
+}
+
+.members .icon-linkedin-7 {
+  left: 123px;
+  position: absolute;
+  top: 62px;
+}
+
+.members .rectangle-18106 {
+  background-color: #d9d9d9;
+  height: 33px;
+  margin-top: 116px;
+  width: 1440px;
+}
+
+.members .special-thanks {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-left: 14.0px;
+  margin-top: 142px;
+  min-width: 940px;
+  z-index: 2;
+}
+
+.members .overlap-group3 {
+  height: 163px;
+  position: relative;
+  width: 940px;
+}
+
+.members .icon-linkedin-8 {
+  left: 556px;
+  position: absolute;
+  top: 114px;
+}
+
+.members .website-4 {
+  left: 510px;
+  top: 109px;
+}
+
+.members .overlap-group2 {
+  height: 159px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 940px;
+}
+
+.members .name-3 {
+  left: 302px;
+  letter-spacing: 1.40px;
+  position: absolute;
+  top: 29px;
+  width: 522px;
+}
+
+.members .span1 {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 1.15px;
+}
+
+.members .footer {
+  align-items: flex-start;
+  background-color: var(--fuscous-gray);
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 304px;
+  justify-content: flex-start;
+  margin-top: 129px;
+  mix-blend-mode: normal;
+  padding: 53px 32px;
+  width: 1440px;
+  z-index: 1;
+}
+
+.members .group-container-1 {
+  height: 97px;
+  position: relative;
+  width: 326px;
+}
+
+.members .clip-path-group-1 {
+  height: 94px;
+  left: 5px;
+  position: absolute;
+  top: 2px;
+  width: 96px;
+}
+
+.members .group-17 {
+  height: 19px;
+  left: 139px;
+  position: absolute;
+  top: 22px;
+  width: 20px;
+}
+
+.members .group-18 {
+  height: 19px;
+  left: 162px;
+  position: absolute;
+  top: 22px;
+  width: 18px;
+}
+
+.members .group-19 {
+  height: 19px;
+  left: 183px;
+  position: absolute;
+  top: 22px;
+  width: 16px;
+}
+
+.members .group-20 {
+  height: 19px;
+  left: 202px;
+  position: absolute;
+  top: 22px;
+  width: 16px;
+}
+
+.members .group-21 {
+  height: 19px;
+  left: 221px;
+  position: absolute;
+  top: 22px;
+  width: 4px;
+}
+
+.members .group-22 {
+  height: 19px;
+  left: 228px;
+  position: absolute;
+  top: 22px;
+  width: 15px;
+}
+
+.members .group-23 {
+  height: 19px;
+  left: 246px;
+  position: absolute;
+  top: 22px;
+  width: 18px;
+}
+
+.members .group-24 {
+  height: 19px;
+  left: 100px;
+  position: absolute;
+  top: 50px;
+  width: 27px;
+}
+
+.members .group-25 {
+  height: 19px;
+  left: 130px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.members .group-26 {
+  height: 19px;
+  left: 148px;
+  position: absolute;
+  top: 50px;
+  width: 14px;
+}
+
+.members .group-27 {
+  height: 19px;
+  left: 165px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.members .group-28 {
+  height: 19px;
+  left: 183px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.members .group-29 {
+  height: 19px;
+  left: 201px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.members .group-30 {
+  height: 19px;
+  left: 219px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.members .group-31 {
+  height: 19px;
+  left: 249px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.members .group-32 {
+  height: 19px;
+  left: 267px;
+  position: absolute;
+  top: 50px;
+  width: 18px;
+}
+
+.members .group-33 {
+  height: 19px;
+  left: 288px;
+  position: absolute;
+  top: 50px;
+  width: 15px;
+}
+
+.members .mask-group-1 {
+  height: 97px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 326px;
+}
+
+.members .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 4px;
+  margin-left: 1px;
+  min-width: 198px;
+}
+
+.members .overlap-group1-3 {
+  height: 128px;
+  position: relative;
+  width: 176px;
+}
+
+.members .flex-container {
+  flex-direction: column;
+  gap: 3px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 162px;
+}
+
+.members .flex-col-7 {
+  align-items: flex-start;
+  gap: 24px;
+  min-height: 97px;
+  width: 214px;
+}
+
+.members .flex-col-8 {
+  align-items: flex-start;
+  min-height: 121px;
+  width: 219px;
+}
+
+.members .flex-col-9 {
+  display: flex;
+  flex-direction: column;
+}
+
+.members .gs-3 {
+  cursor: pointer;
+  height: 53px;
+  object-fit: cover;
+  width: 45px;
+}
+
+.members .icon-linkedin-9 {
+  cursor: pointer;
+  height: 43px;
+  object-fit: cover;
+  width: 53px;
+}
+
+.members .name-4 {
+  line-height: normal;
+  text-align: center;
+}
+
+.members .navbar-link {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  text-align: center;
+}
+
+.members .web-developer {
+  letter-spacing: 0.85px;
+  line-height: normal;
+  text-align: center;
+  width: 307px;
+}
+
+.members .website-5 {
+  cursor: pointer;
+  height: 54px;
+  object-fit: cover;
+  position: absolute;
+  width: 46px;
+}

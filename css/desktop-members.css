@@ -193,6 +193,48 @@
   width: 264px;
 }
 
+.desktop-members .navbar {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  margin-bottom: 1.0px;
+  min-width: 877px;
+}
+
+.desktop-members .navbar-link-about {
+  min-width: 56px;
+}
+
+.desktop-members .navbar-link-members {
+  margin-left: 25px;
+  min-width: 78px;
+}
+
+.desktop-members .navbar-link-publications {
+  margin-left: 25px;
+  min-width: 117px;
+}
+
+.desktop-members .navbar-link-presentations {
+  margin-left: 25px;
+  min-width: 130px;
+}
+
+.desktop-members .navbar-link-storymap {
+  margin-left: 25px;
+  min-width: 90px;
+}
+
+.desktop-members .navbar-link-interactive-map {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 25px;
+  min-height: 24px;
+  min-width: 144px;
+  text-align: center;
+}
+
 .desktop-members .group-8-1 {
   height: 8px;
   margin-bottom: 0.1px;
@@ -231,16 +273,6 @@
   justify-content: flex-end;
   min-width: 1440px;
   padding: 71px 581px;
-}
-
-.desktop-members .title-1 {
-  color: var(--hairy-heath);
-  font-family: var(--font-family-vollkorn_sc);
-  font-size: 48px;
-  font-weight: 700;
-  letter-spacing: 2.40px;
-  line-height: normal;
-  min-height: 67px;
 }
 
 .desktop-members .prof {
@@ -288,21 +320,7 @@
   width: 664px;
 }
 
-.desktop-members .raja-sengupta {
-  color: var(--fuscous-gray);
-  font-family: var(--font-family-poppins);
-  font-size: 27px;
-  font-weight: 700;
-  letter-spacing: 1.35px;
-  line-height: normal;
-  min-height: 41px;
-}
-
 .desktop-members .professor-at-the-dep {
-  color: var(--fuscous-gray);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxl);
-  font-weight: 700;
   letter-spacing: 0.95px;
   line-height: normal;
   margin-top: 15px;
@@ -310,10 +328,6 @@
 }
 
 .desktop-members .mapping-western-han {
-  color: var(--fuscous-gray);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xl);
-  font-weight: 400;
   letter-spacing: 0.90px;
   line-height: normal;
   margin-top: 22px;
@@ -328,9 +342,7 @@
   min-width: 99px;
 }
 
-.desktop-members .icon-linkedin-1 {
-  cursor: pointer;
-  height: 43px;
+.desktop-members .linkedin-1 {
   margin-bottom: 1.0px;
 }
 
@@ -346,11 +358,6 @@
   width: 1161px;
 }
 
-.desktop-members .image-2 {
-  height: 305px;
-  width: 307px;
-}
-
 .desktop-members .flex-col-1 {
   align-items: flex-start;
   align-self: center;
@@ -359,17 +366,7 @@
   width: 664px;
 }
 
-.desktop-members .griet-vankeerberghen {
-  letter-spacing: 1.40px;
-  line-height: normal;
-  min-height: 42px;
-}
-
 .desktop-members .mapping-western-han-2 {
-  color: var(--fuscous-gray);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xl);
-  font-weight: 400;
   letter-spacing: 0.90px;
   line-height: normal;
   margin-top: 26px;
@@ -391,18 +388,6 @@
   padding: 0 200px;
   width: 1440px;
   z-index: 4;
-}
-
-.desktop-members .current-team-members {
-  color: var(--black);
-  font-family: var(--font-family-vollkorn_sc);
-  font-size: 34px;
-  font-weight: 700;
-  letter-spacing: 1.70px;
-  line-height: normal;
-  margin-left: 16px;
-  margin-top: -1px;
-  min-height: 47px;
 }
 
 .desktop-members .flex-row-1 {
@@ -452,9 +437,7 @@
   width: 307px;
 }
 
-.desktop-members .icon-linkedin-2 {
-  cursor: pointer;
-  height: 43px;
+.desktop-members .linkedin-2 {
   margin-top: 22px;
 }
 
@@ -482,7 +465,7 @@
   width: 307px;
 }
 
-.desktop-members .icon-linkedin {
+.desktop-members .linkedin {
   cursor: pointer;
   height: 43px;
   left: 153px;
@@ -555,21 +538,13 @@
   width: 307px;
 }
 
-.desktop-members .storymap-developer {
-  left: 0;
-  letter-spacing: 0.85px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 307px;
-}
-
-.desktop-members .icon-linkedin-3 {
+.desktop-members .icon-linkedin {
   height: 45px;
   left: 100px;
+  object-fit: cover;
   position: absolute;
   top: 100px;
+  width: 53px;
 }
 
 .desktop-members .gs-icon {
@@ -599,13 +574,6 @@
   width: 307px;
 }
 
-.desktop-members .name-1 {
-  letter-spacing: 1.25px;
-  margin-top: 18px;
-  min-height: 37px;
-  width: 307px;
-}
-
 .desktop-members .overlap-group1 {
   height: 115px;
   margin-right: 1.0px;
@@ -614,22 +582,14 @@
   width: 314px;
 }
 
-.desktop-members .project-manager-dat {
-  left: 0;
-  letter-spacing: 0.85px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 314px;
-}
-
-.desktop-members .icon-linkedin-4 {
+.desktop-members .icon-linkedin-1 {
   cursor: pointer;
   height: 43px;
   left: 131px;
+  object-fit: cover;
   position: absolute;
   top: 72px;
+  width: 53px;
 }
 
 .desktop-members .frame-9 {
@@ -642,18 +602,6 @@
   overflow: hidden;
   width: 1440px;
   z-index: 5;
-}
-
-.desktop-members .former-team-members {
-  color: var(--black);
-  font-family: var(--font-family-vollkorn_sc);
-  font-size: 34px;
-  font-weight: 700;
-  letter-spacing: 1.70px;
-  line-height: normal;
-  margin-left: 206px;
-  margin-top: 78px;
-  min-height: 47px;
 }
 
 .desktop-members .frame-container-3 {
@@ -707,9 +655,7 @@
   width: 940px;
 }
 
-.desktop-members .icon-linkedin-5 {
-  cursor: pointer;
-  height: 43px;
+.desktop-members .linkedin-3 {
   left: 556px;
   position: absolute;
   top: 114px;
@@ -727,28 +673,6 @@
   position: absolute;
   top: 0;
   width: 940px;
-}
-
-.desktop-members .special-thanks-to {
-  color: var(--black);
-  font-family: var(--font-family-vollkorn_sc);
-  font-size: 32px;
-  font-weight: 700;
-  left: 0;
-  letter-spacing: 1.60px;
-  line-height: normal;
-  position: absolute;
-  top: 29px;
-  width: 364px;
-}
-
-.desktop-members .image-2-1 {
-  height: 159px;
-  left: 780px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 160px;
 }
 
 .desktop-members .name-2 {
@@ -959,26 +883,46 @@
   min-width: 198px;
 }
 
+.desktop-members .flex-col-3 {
+  align-items: flex-start;
+  gap: 23px;
+  margin-top: 4px;
+  min-height: 59px;
+  width: 18px;
+}
+
 .desktop-members .overlap-group1-1 {
   height: 128px;
   position: relative;
   width: 176px;
 }
 
-.desktop-members .flex-col-3 {
+.desktop-members .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  height: 89px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 162px;
+}
+
+.desktop-members .flex-col-4 {
   align-items: flex-start;
   gap: 24px;
   min-height: 97px;
   width: 214px;
 }
 
-.desktop-members .flex-col-4 {
+.desktop-members .flex-col-5 {
   align-items: flex-start;
   min-height: 121px;
   width: 219px;
 }
 
-.desktop-members .flex-col-5 {
+.desktop-members .flex-col-6 {
   display: flex;
   flex-direction: column;
 }
@@ -988,13 +932,23 @@
   display: flex;
 }
 
-.desktop-members .icon-linkedin-6 {
+.desktop-members .linkedin-4 {
+  cursor: pointer;
+  height: 43px;
   object-fit: cover;
   width: 53px;
 }
 
 .desktop-members .name-3 {
   line-height: normal;
+  text-align: center;
+}
+
+.desktop-members .navbar-link {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
   text-align: center;
 }
 
