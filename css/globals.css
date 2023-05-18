@@ -266,31 +266,6 @@
   width: 307px;
 }
 
-.name-1 {
-  letter-spacing: 1.25px;
-  margin-top: 18px;
-  min-height: 37px;
-  width: 307px;
-}
-
-.project-manager-dat {
-  left: 0;
-  letter-spacing: 0.85px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 314px;
-}
-
-.former-team-members {
-  letter-spacing: 1.70px;
-  line-height: normal;
-  margin-left: 206px;
-  margin-top: 78px;
-  min-height: 47px;
-}
-
 .special-thanks-to {
   color: var(--black);
   font-family: var(--font-family-vollkorn_sc);

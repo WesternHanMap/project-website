@@ -259,7 +259,7 @@
   z-index: 6;
 }
 
-.members .overlap-group9 {
+.members .overlap-group5 {
   align-items: flex-start;
   background-image: url(../img/overview-map2-2-1.png);
   background-size: 100% 100%;
@@ -280,7 +280,7 @@
   z-index: 5;
 }
 
-.members .overlap-group8 {
+.members .overlap-group4 {
   height: 777px;
   margin-left: 28px;
   position: relative;
@@ -300,7 +300,9 @@
 }
 
 .members .flex-col {
+  align-items: flex-start;
   align-self: center;
+  display: flex;
   flex-direction: column;
   gap: 15px;
   margin-top: 6.0px;
@@ -332,6 +334,7 @@
 
 .members .website {
   left: 0;
+  position: absolute;
   top: 106px;
 }
 
@@ -364,7 +367,6 @@
 }
 
 .members .flex-col-1 {
-  align-items: flex-start;
   align-self: center;
   gap: 15px;
   margin-top: 4.0px;
@@ -406,6 +408,7 @@
 
 .members .website-1 {
   left: 2px;
+  position: absolute;
   top: 103px;
 }
 
@@ -419,7 +422,6 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 48px;
   height: 1627px;
   margin-right: -8px;
   margin-top: 41px;
@@ -428,16 +430,13 @@
   z-index: 4;
 }
 
-.members .flex-row {
-  gap: 59px;
-  height: 1482px;
-  min-width: 1039px;
-}
-
-.members .flex-col-2 {
+.members .x1-3row {
   align-items: flex-start;
-  min-height: 1482px;
-  width: 307px;
+  display: flex;
+  gap: 59px;
+  height: 460px;
+  margin-top: 49px;
+  min-width: 1039px;
 }
 
 .members .x1simon {
@@ -471,7 +470,7 @@
   width: 275px;
 }
 
-.members .name-2 {
+.members .name-1 {
   letter-spacing: 1.25px;
   margin-top: 19px;
   min-height: 37px;
@@ -491,12 +490,11 @@
   width: 53px;
 }
 
-.members .x4jenny {
+.members .x2yanbing {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 75px;
-  min-height: 468px;
+  min-height: 460px;
   width: 307px;
 }
 
@@ -509,13 +507,13 @@
   width: 275px;
 }
 
-.members .jenny-park-1 {
+.members .yanbing-chen-1 {
   height: 272px;
-  left: 1px;
+  left: 0;
   object-fit: cover;
   position: absolute;
   top: 1px;
-  width: 273px;
+  width: 275px;
 }
 
 .members .image {
@@ -524,6 +522,103 @@
   position: absolute;
   top: 0;
   width: 275px;
+}
+
+.members .x-chen {
+  letter-spacing: 1.25px;
+  line-height: normal;
+  margin-left: 8.0px;
+  margin-top: 18px;
+  min-height: 38px;
+  text-align: center;
+  width: 315px;
+}
+
+.members .overlap-group1-1 {
+  height: 116px;
+  margin-top: 15px;
+  position: relative;
+  width: 307px;
+}
+
+.members .icon-linkedin-2 {
+  left: 105px;
+  position: absolute;
+  top: 68px;
+}
+
+.members .gs-1 {
+  left: 158px;
+  position: absolute;
+  top: 63px;
+}
+
+.members .x3xuanyun {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 449px;
+  width: 307px;
+}
+
+.members .image-1 {
+  height: 273px;
+  object-fit: cover;
+  width: 275px;
+}
+
+.members .name-2 {
+  letter-spacing: 1.25px;
+  margin-top: 18px;
+  min-height: 70px;
+  width: 307px;
+}
+
+.members .project-manager-dat {
+  letter-spacing: 0.85px;
+  line-height: normal;
+  margin-right: 1.0px;
+  margin-top: 8px;
+  min-height: 74px;
+  text-align: center;
+  width: 314px;
+}
+
+.members .flex-row {
+  align-items: center;
+  display: flex;
+  margin-top: 1px;
+  min-width: 99px;
+}
+
+.members .icon-linkedin-3 {
+  margin-bottom: 1.0px;
+}
+
+.members .x4-6row {
+  align-items: flex-start;
+  display: flex;
+  gap: 59px;
+  height: 469px;
+  margin-top: 55px;
+  min-width: 1039px;
+}
+
+.members .x4jenny {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 468px;
+  width: 307px;
+}
+
+.members .jenny-park-1 {
+  height: 272px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 273px;
 }
 
 .members .name {
@@ -542,15 +637,91 @@
   width: 307px;
 }
 
-.members .icon-linkedin-2 {
+.members .icon-linkedin-4 {
   margin-top: 1px;
+}
+
+.members .x5bryan {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 468px;
+  width: 307px;
+}
+
+.members .xxxxxxxx-ba-in-xxxx {
+  letter-spacing: 0.85px;
+  line-height: normal;
+  margin-top: 16px;
+  min-height: 74px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .x6keyu {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  min-height: 449px;
+  width: 307px;
+}
+
+.members .overlap-group-2 {
+  height: 273px;
+  position: relative;
+  width: 275px;
+}
+
+.members .keyu-wang-1 {
+  height: 270px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 271px;
+}
+
+.members .keyu-wang {
+  letter-spacing: 1.40px;
+  line-height: normal;
+  margin-top: 18px;
+  min-height: 37px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .overlap-group-4 {
+  height: 143px;
+  margin-top: 16px;
+  position: relative;
+  width: 307px;
+}
+
+.members .web-developer-proje {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.members .icon-linkedin-5 {
+  left: 150px;
+  position: absolute;
+  top: 94px;
+}
+
+.members .website-3 {
+  left: 104px;
+  position: absolute;
+  top: 89px;
 }
 
 .members .x7ruoxuan {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 49px;
+  margin-top: 48px;
   min-height: 449px;
   width: 307px;
 }
@@ -582,176 +753,8 @@
   width: 307px;
 }
 
-.members .flex-col-3 {
-  align-items: flex-start;
-  gap: 67px;
-  margin-top: 1px;
-  min-height: 984px;
-  width: 307px;
-}
-
-.members .x2yanbing {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 449px;
-  width: 307px;
-}
-
-.members .yanbing-chen-1 {
-  height: 272px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 1px;
-  width: 275px;
-}
-
-.members .x-chen {
-  letter-spacing: 1.25px;
-  line-height: normal;
-  margin-left: 8.0px;
-  margin-top: 18px;
-  min-height: 38px;
-  text-align: center;
-  width: 315px;
-}
-
-.members .overlap-group6 {
-  height: 116px;
-  margin-top: 15px;
-  position: relative;
-  width: 307px;
-}
-
-.members .icon-linkedin-3 {
-  left: 105px;
-  position: absolute;
-  top: 68px;
-}
-
-.members .gs-1 {
-  left: 158px;
-  position: absolute;
-  top: 63px;
-}
-
-.members .x5bryan {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 468px;
-  width: 307px;
-}
-
-.members .image-1 {
-  height: 273px;
-  object-fit: cover;
-  width: 275px;
-}
-
-.members .xxxxxxxx-ba-in-xxxx {
-  letter-spacing: 0.85px;
-  line-height: normal;
-  margin-top: 16px;
-  min-height: 74px;
-  text-align: center;
-  width: 307px;
-}
-
-.members .flex-col-4 {
-  align-items: flex-start;
-  gap: 67px;
-  margin-top: 1px;
-  min-height: 965px;
-  width: 307px;
-}
-
-.members .x3xuanyun {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 449px;
-  width: 307px;
-}
-
-.members .overlap-group4 {
-  height: 129px;
-  margin-right: 1.0px;
-  margin-top: 41px;
-  position: relative;
-  width: 314px;
-}
-
-.members .icon-linkedin-4 {
-  left: 154px;
-  position: absolute;
-  top: 80px;
-}
-
-.members .website-2 {
-  left: 108px;
-  top: 75px;
-}
-
-.members .x6keyu {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 449px;
-  width: 307px;
-}
-
-.members .overlap-group-2 {
-  height: 273px;
-  position: relative;
-  width: 275px;
-}
-
-.members .keyu-wang-1 {
-  height: 270px;
-  left: 2px;
-  object-fit: cover;
-  position: absolute;
-  top: 1px;
-  width: 271px;
-}
-
-.members .keyu-wang {
-  letter-spacing: 1.40px;
-  line-height: normal;
-  margin-top: 18px;
-  min-height: 37px;
-  text-align: center;
-  width: 307px;
-}
-
-.members .overlap-group1-1 {
-  height: 143px;
-  margin-top: 16px;
-  position: relative;
-  width: 307px;
-}
-
-.members .web-developer-proje {
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-
-.members .icon-linkedin-5 {
-  left: 150px;
-  position: absolute;
-  top: 94px;
-}
-
-.members .website-3 {
-  left: 104px;
-  top: 89px;
-}
-
 .members .former-member {
-  align-items: flex-start;
+  align-items: center;
   background-color: #e9e6da;
   display: flex;
   flex-direction: column;
@@ -763,22 +766,21 @@
   z-index: 3;
 }
 
-.members .flex-row-1 {
-  align-items: flex-start;
-  align-self: center;
-  display: flex;
+.members .former-team-members {
+  align-self: flex-start;
+  letter-spacing: 1.70px;
+  line-height: normal;
+  margin-left: 206px;
+  margin-top: 78px;
+  min-height: 47px;
+}
+
+.members .frame {
   gap: 59px;
-  height: 966px;
+  height: 504px;
   margin-right: 1.0px;
   margin-top: 55px;
   min-width: 1039px;
-}
-
-.members .flex-col-5 {
-  align-items: flex-start;
-  gap: 76px;
-  min-height: 966px;
-  width: 307px;
 }
 
 .members .x1azwar {
@@ -790,11 +792,9 @@
 }
 
 .members .frame-25 {
-  align-items: flex-start;
   background-image: url(../img/azwa-ali-1@2x.png);
   background-position: 50% 50%;
   background-size: cover;
-  display: flex;
   min-width: 275px;
 }
 
@@ -814,6 +814,101 @@
   min-height: 74px;
   text-align: center;
   width: 307px;
+}
+
+.members .x2jiahua {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 503px;
+  width: 307px;
+}
+
+.members .jiahua-chen-1 {
+  height: 269px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 274px;
+}
+
+.members .timer-slider-develop {
+  letter-spacing: 0.85px;
+  line-height: normal;
+  margin-left: 8.0px;
+  margin-top: 15px;
+  min-height: 98px;
+  text-align: center;
+  width: 307px;
+}
+
+.members .flex-row-1 {
+  align-items: center;
+  display: flex;
+  margin-left: 9.0px;
+  margin-top: 8px;
+  min-width: 98px;
+}
+
+.members .x3clara {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  min-height: 449px;
+  width: 307px;
+}
+
+.members .clara-fere-1 {
+  height: 270px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 270px;
+}
+
+.members .name-3 {
+  letter-spacing: 1.25px;
+  margin-top: 18px;
+  min-height: 37px;
+  width: 307px;
+}
+
+.members .overlap-group-5 {
+  height: 105px;
+  margin-left: 8.0px;
+  margin-top: 16px;
+  position: relative;
+  width: 307px;
+}
+
+.members .western-han-river-di {
+  left: 0;
+  letter-spacing: 0.85px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 307px;
+}
+
+.members .icon-linkedin-7 {
+  left: 123px;
+  position: absolute;
+  top: 62px;
+}
+
+.members .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 59px;
+  height: 449px;
+  margin-right: 367.0px;
+  margin-top: 13px;
+  min-width: 673px;
 }
 
 .members .x4jing {
@@ -851,53 +946,10 @@
   width: 307px;
 }
 
-.members .flex-col-6 {
-  align-items: center;
-  align-self: flex-end;
-  min-height: 965px;
-  width: 307px;
-}
-
-.members .x2jiahua {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 449px;
-  width: 307px;
-}
-
-.members .jiahua-chen-1 {
-  height: 269px;
-  left: 1px;
-  object-fit: cover;
-  position: absolute;
-  top: 2px;
-  width: 273px;
-}
-
-.members .timer-slider-develop {
-  letter-spacing: 0.85px;
-  line-height: normal;
-  margin-left: 8.0px;
-  margin-top: 15px;
-  min-height: 104px;
-  text-align: center;
-  width: 307px;
-}
-
-.members .flex-row-2 {
-  align-items: center;
-  display: flex;
-  margin-left: 9.0px;
-  margin-top: 1px;
-  min-width: 98px;
-}
-
 .members .x5duo {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 13px;
   min-height: 449px;
   width: 307px;
 }
@@ -918,48 +970,6 @@
   min-height: 104px;
   text-align: center;
   width: 307px;
-}
-
-.members .x3clara {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-top: 1px;
-  min-height: 449px;
-  width: 307px;
-}
-
-.members .clara-fere-1 {
-  height: 270px;
-  left: 2px;
-  object-fit: cover;
-  position: absolute;
-  top: 2px;
-  width: 270px;
-}
-
-.members .overlap-group1-2 {
-  height: 105px;
-  margin-left: 8.0px;
-  margin-top: 16px;
-  position: relative;
-  width: 307px;
-}
-
-.members .western-han-river-di {
-  left: 0;
-  letter-spacing: 0.85px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 307px;
-}
-
-.members .icon-linkedin-7 {
-  left: 123px;
-  position: absolute;
-  top: 62px;
 }
 
 .members .rectangle-18106 {
@@ -993,6 +1003,7 @@
 
 .members .website-4 {
   left: 510px;
+  position: absolute;
   top: 109px;
 }
 
@@ -1004,7 +1015,7 @@
   width: 940px;
 }
 
-.members .name-3 {
+.members .name-4 {
   left: 302px;
   letter-spacing: 1.40px;
   position: absolute;
@@ -1201,13 +1212,15 @@
   min-width: 198px;
 }
 
-.members .overlap-group1-3 {
+.members .overlap-group1-2 {
   height: 128px;
   position: relative;
   width: 176px;
 }
 
 .members .flex-container {
+  align-items: flex-start;
+  display: flex;
   flex-direction: column;
   gap: 3px;
   height: 89px;
@@ -1217,22 +1230,26 @@
   width: 162px;
 }
 
-.members .flex-col-7 {
-  align-items: flex-start;
+.members .flex-col-2 {
   gap: 24px;
   min-height: 97px;
   width: 214px;
 }
 
-.members .flex-col-8 {
-  align-items: flex-start;
+.members .flex-col-3 {
   min-height: 121px;
   width: 219px;
 }
 
-.members .flex-col-9 {
+.members .flex-col-4 {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
+}
+
+.members .frame-1 {
+  align-items: flex-start;
+  display: flex;
 }
 
 .members .gs-3 {
@@ -1249,7 +1266,7 @@
   width: 53px;
 }
 
-.members .name-4 {
+.members .name-5 {
   line-height: normal;
   text-align: center;
 }
@@ -1273,6 +1290,5 @@
   cursor: pointer;
   height: 54px;
   object-fit: cover;
-  position: absolute;
   width: 46px;
 }

@@ -574,11 +574,28 @@
   width: 307px;
 }
 
+.desktop-members .name-1 {
+  letter-spacing: 1.25px;
+  margin-top: 18px;
+  min-height: 37px;
+  width: 307px;
+}
+
 .desktop-members .overlap-group1 {
   height: 115px;
   margin-right: 1.0px;
   margin-top: 41px;
   position: relative;
+  width: 314px;
+}
+
+.desktop-members .project-manager-dat {
+  left: 0;
+  letter-spacing: 0.85px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
   width: 314px;
 }
 
@@ -602,6 +619,14 @@
   overflow: hidden;
   width: 1440px;
   z-index: 5;
+}
+
+.desktop-members .former-team-members {
+  letter-spacing: 1.70px;
+  line-height: normal;
+  margin-left: 206px;
+  margin-top: 78px;
+  min-height: 47px;
 }
 
 .desktop-members .frame-container-3 {
